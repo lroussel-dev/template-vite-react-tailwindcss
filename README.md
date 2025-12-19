@@ -1,6 +1,11 @@
 # Vite + React + TailwindCSS
 
-This is a template to create quick little project !
+This is a template to create quick little project with
+
+- **Vite**
+- **React**
+- **React Router Dom**
+- **TailwindCSS**
 
 ## Installation :
 
@@ -20,7 +25,3 @@ git init
 
 # Et voilà !
 ```
-
-Condensed : 
-```
-
