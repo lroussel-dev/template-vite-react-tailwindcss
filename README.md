@@ -25,3 +25,32 @@ git init
 
 # Et voilà !
 ```
+
+## NGINX Docker
+
+You can run easely your Vite Build with nginx.
+
+### Config docker
+
+```bash
+# Edit the docker config
+nano docker-compose.yml 
+```
+
+#### container_name
+
+Change at `container_name: nginx-server` by your project name.
+
+#### port
+
+Change at `port: 8080:80`.
+
+## Run the docker
+
+```bash
+# Create the build with vite
+npm run build
+
+# Run the docker!
+docker compose up -d
+```
